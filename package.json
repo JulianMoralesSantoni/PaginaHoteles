@@ -1,9 +1,11 @@
+
 {
   "name": "repositorioproyecto",
   "version": "1.0.0",
   "description": "Nuestro primer proyecto NodeJs",
   "main": "index.html",
   "scripts": {
+    " dev " : " servidor lite " 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,3 +19,9 @@
     "lite-server": "^2.5.4"
   }
 }
+
+
+
+
+
+
