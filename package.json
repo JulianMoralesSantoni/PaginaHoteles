@@ -1,0 +1,19 @@
+{
+  "name": "repositorioproyecto",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto NodeJs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://julian39@bitbucket.org/julian39/repositorioproyecto.git"
+  },
+  "author": "Julian Morales",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/julian39/repositorioproyecto#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
