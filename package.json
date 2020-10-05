@@ -1,12 +1,21 @@
-
 {
   "name": "repositorioproyecto",
   "version": "1.0.0",
   "description": "Nuestro primer proyecto NodeJs",
   "main": "index.html",
   "scripts": {
-    " dev " : " servidor lite " 
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lite-server",    
+    
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* --out-dir='dist/img'",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+
   },
   "repository": {
     "type": "git",
@@ -17,11 +26,10 @@
   "homepage": "https://bitbucket.org/julian39/repositorioproyecto#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
-
-
-
-
-
-
