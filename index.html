@@ -6,62 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css" >
 
-    <title>Guia de Telos</title>
+    <title>Guia de Hoteles</title>
   </head>
   <body>
-    <div class="jumbotron">
-    <h1>Guia de Telos</h1>
-
-    <p>La mas actualizada informacion de los telos de la zona este.</p>
-    </div>
-    <div class="container">
-  <div class="row">
-    <div class="col-4 ">
-      Guía de Hoteles les proporciona directorios de hoteles e información turística en línea para una gran variedad de ciudades en todo el mundo.
-    </div>
-    <div class="col-4 ">
-       Guía de Hoteles ayuda a sus lectores a encontrar la información turística que deseen, y presenta especiales de viajes, disponibles a través de enlaces pagados, patrocinios y anuncios de 'banners'.
-    </div>
-    <div class="col-4 ">
-      Guía de Hoteles no es como otros sitios en el internet que ofrecen información editorial "neutral" como un frente a sus sistemas de reservaciones.
-    </div>
-
-    <div class="my-3 p-3 bg-white rounded shadow-sm">
-    <h6 class="border-bottom border-gray pb-2 mb-0">Telos disponibles</h6>
-    <div class="media text-muted pt-3">
-      <svg class="bd-placeholder-img mr-2 rounded" width="50" height="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"/><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
-      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">El poeta</strong>
-        Atendidos por medraninos (Hasta el comecaca se entera que fuiste a ponerla). Precio: Un riñon.
-      </p>
-      </p><a href="#"> Visitar </a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" >
+      <a class="navbar-brand" href="./index.html">Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Terminos y Condiciones</a>
+          </li>
+          
+        </ul>
       </div>
-    <div class="media text-muted pt-3">
-      <svg class="bd-placeholder-img mr-2 rounded" width="50" height="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#e83e8c"/><text x="50%" y="50%" fill="#e83e8c" dy=".3em">32x32</text></svg>
-      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">El tunel</strong>
-       Por la calle corvalan, yendo para san martin a mano derecha. Buen servicio, medio salado, pero buena atencion.
+    </nav>
+    <div class="jumbotron">
+      <h1>Guia de Hoteles</h1>
+
+      <p>La mas actualizada informacion de Hoteles en Mendoza</p>
+    </div>
+
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+
+
+       <div class="row">
+          <div class="col-sm-4 ">
+            <h4>¿Para que sirve?</h4>
+                  <p>Guía de Hoteles les proporciona directorios de hoteles e información turística en línea para una gran variedad de ciudades en todo el mundo.</p>
+          </div>
+          <div class="col-sm-4 ">
+            <h4>Informate a costa de un click</h4>
+                  <p>Guía de Hoteles ayuda a sus lectores a encontrar la información turística que deseen, y presenta especiales de viajes, disponibles a través de enlaces pagados, patrocinios y anuncios de 'banners'.</p>
+          </div>
+          <div class="col-sm-4 ">
+            <h4>No te dejes engañar</h4>
+
+                  <p>Guía de Hoteles no es como otros sitios en el internet que ofrecen información editorial "neutral" como un frente a sus sistemas de reservaciones.</p>
+          </div>
+    
+   
+    
+    <div class="d-flex flex-wrap flex-row-reverse">
+       <div class="card-hotel d-flex flex-column justify-content-between ">
+           <div>
+             <h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary  btn-reserva">Reservar</button></div>
+            </div>
+ 
+      
+    <div class="card-hotel d-flex flex-column justify-content-between">
+      <div> <h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary btn-reserva">Reservar</button></div>
+            
        
-      </p></p><a href="#"> Visitar </a>
     </div>
-    <div class="media text-muted pt-3">
-      <svg class="bd-placeholder-img mr-2 rounded" width="50" height="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect width="100%" height="100%" fill="#6f42c1"/><text x="50%" y="50%" fill="#6f42c1" dy=".3em">32x32</text></svg>
-      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">Para dos</strong>
-       Como dice el nombre es para dos, para tres no. Precio: Barato. Se recomienda llevar un cucatrap
-      </p><a href="#"> Visitar </a>
+  
+    <div class="card-hotel d-flex flex-column justify-content-between">
+      
+       <div><h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary btn-reserva">Reservar</button></div>
+            
     </div>
+  
+    <div class=" card-hotel d-flex flex-column justify-content-between">
+       <div><h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary btn-reserva">Reservar</button></div>
+            
+    </div>
+
+    <div class="card-hotel d-flex flex-column justify-content-between">
+           <div>
+             <h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary  btn-reserva">Reservar</button></div>
+            </div>
+
+  <div class="card-hotel d-flex flex-column justify-content-between">
+           <div>
+             <h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary  btn-reserva">Reservar</button></div>
+            </div>
+  <div class="card-hotel d-flex flex-column justify-content-between">
+           <div>
+             <h5>Hotel Diplomatic</h5>
+              <p>Hotel 5 estrellas, posee suite presidencial y piscina</p></div>
+              <div><button class="btn btn-primary  btn-reserva">Reservar</button></div>
+            </div> 
+     
+    
+
+   
     </div>
   </div>
 </div>
  
+ <footer>
+   <div class="row">
+     <div class="col-sm-4 d-flex flex-column ">
+      <a href="http:www.facebook.com">Facebook</a>
+      <a href="http:www.instagram">Instagram</a>
+      <a href="http:www.google.com">Goole+</a>
+      <a href="http:www.Twitter.com">Twitter</a>
+     </div>
+   <div class="col-sm-4">
+    <address>
+      <h3>Oficina Central</h3>
+      <p>Angelino Arenas, Medrano, Rivadavia</p>
+      <p>0303456</p>
+      <p>addres@gmail.com</p>
+
+
+    </address>
+  </div>
+  <div class="col-sm-4 d-flex flex-column align-items-end">
+     <a href="http:www.facebook.com">Terminos y condiciones</a>
+      <a href="http:www.instagram">Nosotr@s</a>
+      <a href="http:www.google.com">Precios</a>
+      <a href="http:www.Twitter.com">Contacto</a>
+
+
+  </div>
+
+
+ </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="node_modules/jquery/dist/jquery.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <!--<script src="node_modules/jquery/dist/jquery.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="node_modules/popper.js/dist/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
