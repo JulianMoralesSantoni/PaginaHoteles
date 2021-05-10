@@ -22,7 +22,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/julian39/repositorioproyecto#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
